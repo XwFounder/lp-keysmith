@@ -6,7 +6,6 @@ const basePath = process.env.NODE_ENV === 'production' ? '/keysmith' : '';
 
 const nextConfig = {
   output: 'export',
-  basePath,
   images: { unoptimized: true },
   turbopack: {
     root: __dirname,
